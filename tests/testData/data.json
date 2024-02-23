@@ -1,0 +1,67 @@
+{
+    "BaseUrl" : "https://www.salesforce.com/nl/?ir=1",
+    "gebruikersnaam" : "ersin.bolukbas@abcfabriek.nl",
+    "wachtwoord" : "Ersin.123",
+
+    "accounts": {
+        "input": {
+          "account1": "Ersin BB BV",
+          "account2": "Bolukbas EE BV",
+          "accountNumber": "171",
+          "accountSite": "Geen",
+          "jaaromzet": "1000000",
+          "telefoonnummer": "+31682685665",
+          "fax": "+31123456123",
+          "website": "www.ersinb.nl",
+          "tickersymbol": "",
+          "employees": "45",
+          "sicCode": "3131",
+          "typeVanSector": "Technology",
+          "typeVanIndustrie": "Technology Partner",
+          "eigendom" : "Public",
+          "beoordeling": "Hot"
+        },
+    
+        "factuurAdres": {
+          "factuurAdres": "factuurAdres",
+          "adress": "Lodewijk Napoleonlaan 27",
+          "postCode": "4904 LE",
+          "stad": "Oosterhout",
+          "provincie": "Noord Brabant",
+          "land": "the Netherlands"
+        },
+    
+        "verstuurAddress": {
+          "verstuurAddress": "verstuurAddress",
+          "adress": "Lodewijk Napoleonlaan 27",
+          "postCode": "4904 LE",
+          "stad": "Oosterhout",
+          "provincie": "Noord Brabant",
+          "land": "the Netherlands"
+        },
+
+        "aanvullendeGegevens" : {
+            "customerPriorityDropdown": "Medium",
+            "slaDropdown": "Silver",
+            "slaExpirationDate": "15-03-2024",
+            "slaSerialNummer": "2536",
+            "numberOfLocations": "8",
+            "upsellOpportunity": "Maybe",
+            "active": "Yes"      
+        },
+
+        "meerDetails": {
+            "accountBeschrijving": "Laten we elke twee weken contact houden.",
+            "sic_bescrijving": "asdfasdf",
+            "tradeStyle": "qwerqwerty"
+        }
+
+      }
+
+
+
+
+
+
+
+}
