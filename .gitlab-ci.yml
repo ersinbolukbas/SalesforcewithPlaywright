@@ -30,6 +30,6 @@ playwright-tests:
     - npx playwright test
   artifacts:
     when: always
-    paths:
-      - tests-results/
+    # paths:
+      # - tests-results/
     expire_in: 1 week
