@@ -13,14 +13,14 @@ export class HomePage {
 
     async navigateTo(url: string) {
         await this.page.goto(url);
-        await this.page.waitForTimeout(1000);
+        await this.page.waitForLoadState('load');
         await this.page.locator("button[id='onetrust-accept-btn-handler']").click();
     }
 
     async clickToLoginBtn() {
         await this.page.getByLabel('Site tools', { exact: true }).locator('span').filter({ hasText: 'Inloggen' }).click();
         await this.page.getByRole('link', { name: 'Salesforce', exact: true }).click();
-        await this.page.waitForTimeout(2000);
+        await this.page.waitForLoadState('load');
     }
 
     async inloggen(username: string, password: string) {
